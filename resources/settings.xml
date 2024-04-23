@@ -12,14 +12,14 @@
   </category>
   <category label="Действия">
     <setting type="action" id="create_sources" enable="true"
-        action="RunScript(script.service.torrspy,create_sources)" 
+        action="RunScript(script.service.torrspy,create_sources)"
         label="Создать источники для медиатеки"/>
     <setting type="action" id="create_playlists" option="close"
-        action="RunScript(script.service.torrspy,create_playlists)" 
+        action="RunScript(script.service.torrspy,create_playlists)"
         label="Создать плейлисты для каналов Android TV" />
     <setting type="action" id="install_torrserve_next" enable="!System.HasAddon(plugin.video.torrserve-next)"
         visible="false"
-        action="InstallAddon(plugin.video.torrserve-next)" 
-        label="Установить `TorrServer Client NEXT!`" />
+        action="InstallAddon(plugin.video.torrserve-next)"
+        label="Установить `TSC NEXT!`" />
   </category>
 </settings>
