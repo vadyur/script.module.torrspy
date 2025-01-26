@@ -226,7 +226,7 @@ def get_info():
     update_listitem(video_info, art)
 
     if 'imdbnumber' not in video_info or 'director' not in video_info:
-        update_video_info_from_tmdb(video_info)
+        update_video_info_from_tmdb(video_info, art)
         update_listitem(video_info, art)
 
     save_video_info(hash, video_info)
